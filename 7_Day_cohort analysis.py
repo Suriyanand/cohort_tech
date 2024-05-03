@@ -170,6 +170,7 @@ import plotly.express as px
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define dropdown options
 dropdown_options = [
@@ -238,6 +239,7 @@ import seaborn as sns
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the layout of the dashboard
 app.layout = html.Div([
